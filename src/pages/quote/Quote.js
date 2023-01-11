@@ -11,7 +11,7 @@ const Quote = () =>{
         updateItemQuantity,
         removeItem,
     } = useCart();
-    if (isEmpty) return <h1>No items added</h1>
+    if (isEmpty) return <h1 className="empty-text">No items added</h1>
     return(
         <>
         <div className='all-product'>
@@ -38,7 +38,7 @@ const Quote = () =>{
         })}
 
         <div className='total'>
-            <span>Total Price of your Cart</span>
+            <span>Total Price of your Quote</span>
             <span>₱{cartTotal}</span>
         </div>
         <div className='saveContainer'>
