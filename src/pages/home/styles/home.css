@@ -1,0 +1,77 @@
+.container-home{
+    width: 85%;
+    margin-left: 135px;
+    height: 500px;
+  }
+  
+  .left-container, .left-container-login, .left-container-forgot{
+    width: 50%;
+    height: 500px;
+    float: left;
+  }
+  
+  .right-container, .right-container-login{
+    width:50%;
+    height: 500px;
+    float: right;
+  }
+  
+  .left-container h1{
+    margin-top: 13rem;
+    margin-left: 1rem;
+    font-size: 35px;
+    font-family: myFirstFont;
+    height: 75px;
+  }
+  
+  .left-container p{
+    margin-left: 1.3rem;
+    font-family: mySecondFont;
+    font-size: 18px;
+    margin-top: 2rem;
+  }
+  
+  .button-home{
+    margin-left: 1rem;
+  }
+  
+  .btn-login{
+    background-color: #111727;
+    color: #fff;
+    width: 130px;
+    border-radius: 22px;
+    font-family: arial;
+    font-size: 15px;
+    cursor: pointer;
+  }
+  
+  .all-pictures{
+    margin-left: 20px;
+    margin-top: 50px;
+  }
+  
+  .home1-logo{
+    width: 50%;
+    height: 220px;
+    border-top-left-radius: 60px;
+  }
+  
+  .home2-logo{
+    width: 45%;
+    margin-left: 10px;
+    height: 220px;
+  }
+  
+  .home3-logo{
+    width: 25%;
+    height: 320px;
+    margin-top: 5px;
+  }
+  
+  .home4-logo{
+    width: 70%;
+    height: 320px;
+    margin-left: 10px;
+    border-bottom-right-radius: 60px;
+  }
+  

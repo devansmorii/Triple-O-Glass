@@ -1,0 +1,157 @@
+section.contact {
+    display: grid;
+    grid-template-columns: 2;
+    grid-template-areas:
+      "A B"
+      "A C"
+      "A D"
+      "A E"
+      "A F";
+    grid-column-gap: .5%;
+  }
+  
+  .left-col {
+    grid-area: A;
+    padding: 0 10%;
+    text-align: center;
+    align-self: right;
+    margin-top: 20%;
+    margin-left: 40%;
+  }
+  
+  .right-col1 {
+    grid-area: B;
+    padding: 0 20%;
+    text-align: left;
+    align-self: left;
+    margin-top: 20%;
+  }
+  h6{
+    font-family: myFirstFont;
+    font-size: 1rem;
+    margin:0;
+  }
+  
+  h7 {
+    font-family: myFirstFont;
+    src: url(../../../font/FreeSansBold.ttf);
+    margin-left: 2%;
+    vertical-align: top;
+  }
+  
+  .right-col2 {
+    grid-area: C;
+    padding: 0 20%;
+    text-align: left;
+    align-self: left;
+  }
+  
+  h8 {
+    font-family: myFirstFont;
+    src: url(../../../font/FreeSansBold.ttf);
+    margin-left: 2%;
+    vertical-align: top;
+  }
+  
+  .right-col3 {
+    grid-area: D;
+    padding: 0 20%;
+    text-align: left;
+    align-self: left;
+  }
+  
+  h9 {
+    font-family: myFirstFont;
+    src: url(../../../font/FreeSansBold.ttf);
+    margin-left: 2%;
+    vertical-align: top;
+  }
+  
+  .right-col4 {
+    grid-area: E;
+    padding: 0 20%;
+    text-align: left;
+    align-self: left;
+  }
+  
+  h10 {
+    font-family: myFirstFont;
+    src: url(../../../font/FreeSansBold.ttf);
+    margin-left: 2%;
+    vertical-align: top;
+  }
+  
+  h11{
+    font-family: myFirstFont;
+  }
+  h12{
+    font-family: myFirstFont;
+  }
+  
+  .right-col5 {
+    grid-area: F;
+    padding: 0 20%;
+    text-align: left;
+    align-self: left;
+    font-family: myFirstFont;
+    src: url(../../../font/FreeSansBold.ttf);
+    margin-left: -19%;
+    margin-bottom: 35%;
+    margin-top: 10px;
+    line-height: 0px;
+  }
+  
+  .branches {
+    font-family: myFirstFont;
+    src: url(../../../font/FreeSansBold.ttf);
+    margin-left: 40%;
+    margin-top: -10%;
+    font-size: 140%;
+  }
+  
+  .branch1 {
+    font-family: myFirstFont;
+    src: url(../../../font/FreeSansBold.ttf);
+    margin-left: 30%;
+    margin-top: 1%;
+  }
+  
+  .branch2 {
+    font-family: myFirstFont;
+    src: url(../../../font/FreeSansBold.ttf);
+    margin-left: 30%;
+    margin-top: 0%;
+    height:70px;
+  }
+  
+  h13 {
+    margin-left: .55%;
+    vertical-align: top;
+  }
+  
+  h14 {
+    margin-left: .3%;
+    vertical-align: top;
+  }
+  
+  .container{
+    width: 90%;
+    background: #EEEE;
+    border-radius: 31px;
+    margin-left: 80px;
+    margin-top: 30px;
+  }
+  
+  .logo-contact{
+    width: 70%;
+  }
+  
+  .all-icon{
+    width: 4.5%;
+    margin-left: -40%;
+  }
+  
+  .icon-5{
+    width: 2%;
+  }
+  

@@ -1,0 +1,139 @@
+.logo-about{
+    width: 12%;
+  }
+  
+  .grid {
+    display: grid; 
+    grid-template-rows: 1fr 50px 50px 50px 50px 50px 50px;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    gap: 0px;
+    height: 100%;
+    padding-bottom: 50px;
+  }
+  
+  #item-0 {
+    grid-row-start: 1;
+    grid-column-start: 1;
+  
+    grid-row-end: 2;
+    grid-column-end: 6;
+    margin-left: 0%;
+    margin-top: 6%;
+    padding: 0 20%;
+    text-align: center;
+  }
+  
+  h6 {
+    font-family: myFirstFont;
+    src: url(../../../font/FreeSansBold.ttf);
+    font-size: 20px;
+  }
+  
+  #item-1 {
+    grid-row-start: 2;
+    grid-column-start: 1;
+  
+    grid-row-end: 3;
+    grid-column-end: 3;
+    font-family: myFirstFont;
+    src: url(../../../font/FreeSansBold.ttf);
+    font-size: 55px;
+    padding: 0px;
+    text-align: right;
+  }
+  
+  #item-2 {
+    grid-row-start: 3;
+    grid-column-start: 1;
+  
+    grid-row-end: 4;
+    grid-column-end: 3;
+    font-family: myFirstFont;
+    src: url(../../../font/FreeSansBold.ttf);
+    font-size: 55px;
+    padding: 0px;
+    margin-left: 77%;
+  }
+  
+  #item-3 {
+    grid-row-start: 4;
+    grid-column-start: 1;
+    grid-row-end: 5;
+    grid-column-end: 3;
+    font-family: myFirstFont;
+    src: url(../../../font/FreeSansBold.ttf);
+    font-size: 55px;
+    padding: 0px;
+    margin-left: 77%;
+  }
+  
+  #item-4 {
+    grid-row-start: 2;
+    grid-column-start: 3;
+    color: #5A5A5A;
+    grid-row-end: 5;
+    grid-column-end: 6;
+    font-family: arial;
+    margin-left: 2.5%;
+    text-justify: left, center, right;
+  }
+  
+  #item-5 {
+    grid-row-start: 5;
+    grid-column-start: 1;
+  
+    grid-row-end: 6;
+    grid-column-end: 3;
+    font-family: myFirstFont;
+    src: url(../../../font/FreeSansBold.ttf);
+    margin-top: 15%;
+    margin-left: 50%;
+    font-size: 20px;
+    text-align: center;
+  }
+  
+  #item-6 {
+    grid-row-start: 6;
+    grid-column-start: 1;
+    width: 70%;
+    grid-row-end: 7;
+    grid-column-end: 3;
+    font-family: arial;
+    color: #5A5A5A;
+    margin-top: 20%;
+    margin-left: 55%;
+    align-self: center;
+    text-align: left;
+  }
+  
+  #item-7 {
+    grid-row-start: 5;
+    grid-column-start: 4;
+    grid-row-end: 6;
+    grid-column-end: 6;
+    font-family: myFirstFont;
+    src: url(../../../font/FreeSansBold.ttf);
+    margin-top: 15%;
+    margin-left: 17%;
+    font-size: 20px;
+  }
+  
+  #item-8 {
+    grid-row-start: 6;
+    grid-column-start: 4;
+    width: 70%;
+    grid-row-end: 7;
+    grid-column-end: 6;
+    font-family: arial;
+    color: #5A5A5A;
+    margin-top: 20%;
+    align-self: center;
+    text-align: left;
+  }
+  #item-4 p{
+    margin-top: 0;
+    margin-bottom: 1rem;
+    text-align: justify;
+    width: 50%;
+    font-family: Arial, Helvetica, sans-serif;
+  }

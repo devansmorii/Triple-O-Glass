@@ -1,0 +1,79 @@
+.navbar {
+  height: 15vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.title-page{
+  margin-left: 10px;
+  font-size: 19px;
+  font-family: myFirstFont; 
+  color: black;
+  text-decoration: none;
+ }
+ 
+.logo-png{
+  width: 4.5%;
+  margin-left: 3em;
+}
+
+.nav-items {
+  display: flex;
+  list-style: none;
+  text-align: center;
+  width: 70vw;
+  justify-content: flex-end;
+  margin-right: 2rem;
+}
+
+.nav-item {
+  display: flex;
+  align-items: center;
+  height: 10vh;
+  
+}
+
+@font-face {
+  font-family: myFirstFont;
+  src: url(../font/FreeSansBold.ttf);
+}
+
+
+a {
+  text-decoration: none;
+  color: rgba(0, 0, 0, 0.7);
+  font-size: 1.1rem;
+  margin-right: 2rem;
+  padding: 6px 16px;
+  border-radius: 5px;
+  font-family: myFirstFont; 
+  position: relative;
+  
+}
+
+.active{
+  color: rgba(0, 0, 0, 0.9);
+}
+
+
+.nav-item a:hover{
+  color: rgba(0, 0, 0, 0.9);
+  
+}
+
+.nav-item a:after{
+  content: "";
+  position: absolute;
+  background-color: #202020;
+  height: 3px;
+  width: 0px;
+  margin-top: 25px;
+  
+}
+
+.nav-item a:hover:after{
+  width: 100%;
+  left: 0;
+}
+
