@@ -1,0 +1,40 @@
+.glass-title{
+    margin-top: 1%;
+    text-align: center;
+
+}
+.container-glass{
+    width: 86%;
+    margin: auto;
+    margin-top: 2%;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: auto;
+    grid-row-gap: 30px;
+    grid-column-gap: 20px;
+    background-color: rgba(222, 224, 224, 0.781);
+    padding-top: 3%;
+    padding-left: 5%;
+    padding-bottom: 3%;
+    padding-right: 2%;
+    border-radius: 30px;
+}
+
+.glass-cards{
+    width: 190px;
+    padding: 30px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 30px;
+
+}
+.glass-cards:hover{
+    box-shadow: 0 10px 10px 10px rgba(0,0,0,0.1);
+    cursor: pointer;
+}
+.image_box img{
+    width: 175px;
+    height: 200px;
+}
+.details p:nth-child(1){
+    font-weight: bold;
+}

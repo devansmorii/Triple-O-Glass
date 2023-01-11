@@ -19,7 +19,7 @@ const Quote = () =>{
             return(
                 <div className="cart_box" key={index}>
                     <div className="cart_img">
-                    <img src={require('../../images/glass_type/' + item.img + '.jpg')}  />
+                    <img src={require('../../images/glass_type/' + item.img + '.jpg')}   />
                         <p>{item.title}</p>
                     </div>
                     <div>
@@ -36,6 +36,7 @@ const Quote = () =>{
                 
             )
         })}
+
         <div className='total'>
             <span>Total Price of your Cart</span>
             <span>₱{cartTotal}</span>

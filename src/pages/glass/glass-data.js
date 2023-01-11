@@ -1,7 +1,7 @@
 
 export const glassList =[
     {
-        id: 1,
+        id: 90,
         title: "Clear",
         img: "clear",
         code: "GL001",
@@ -12,7 +12,7 @@ export const glassList =[
     },
 
     {
-        id: 2,
+        id: 91,
         title: "Mirror",
         img: "mirror",
         code: "GL002",
@@ -23,7 +23,7 @@ export const glassList =[
     },
 
     {
-        id: 3,
+        id: 92,
         title: "Smoke",
         img: "smoke",
         code: "GL003",
@@ -33,7 +33,7 @@ export const glassList =[
     },
 
     {
-        id: 4,
+        id: 93,
         title: "Dark Gray",
         img: "dark-gray",
         code: "GL004",
@@ -43,7 +43,7 @@ export const glassList =[
     },
 
     {
-        id: 5,
+        id: 94,
         title: "Dark Reflective Blue",
         img: "dark-ref-blue",
         code: "GL005",
@@ -54,7 +54,7 @@ export const glassList =[
     },
 
     {
-        id: 6,
+        id: 95,
         title: "Dark Reflective Bronze",
         img: "dark-ref-bronze",
         code: "GL006",
@@ -65,7 +65,7 @@ export const glassList =[
     
 
     {
-        id: 7,
+        id: 96,
         title: "Original Bronze",
         img: "org-bronze",
         code: "GL007",
@@ -76,7 +76,7 @@ export const glassList =[
     
 
     {
-        id: 8,
+        id: 97,
         title: "Reflective Green",
         img: "ref-green",
         code: "GL008",
