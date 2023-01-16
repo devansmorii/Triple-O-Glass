@@ -4,6 +4,10 @@ import "./style/quote.css"
 
 
 const Quote = () =>{
+    function handleClick() {
+        window.location.href = '/customer-form';
+    }
+
     const {
         isEmpty,
         items,
@@ -42,7 +46,7 @@ const Quote = () =>{
             <span>₱{cartTotal}</span>
         </div>
         <div className='saveContainer'>
-            <button className='saveBtn'>Save Quote</button>
+            <button className='saveBtn' onClick={handleClick} >Save Quote</button>
         </div>
     </div>
 

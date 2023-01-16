@@ -18,7 +18,7 @@ function Navs(){
 
   return (
     <>
-      <nav className="navbar">
+      <nav className="navbar" style={{display: location.pathname === '/receipt' ? 'none' : 'flex'}}>
       <img src={logo} alt="Logo" className="logo-png"/>
       <Link to="/" className="title-page">TRIPLE O GLASS</Link>
      

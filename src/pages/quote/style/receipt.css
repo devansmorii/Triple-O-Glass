@@ -1,0 +1,66 @@
+.logo{
+    width: 8%;
+  }
+
+  
+.receipt-container {
+    background: white;
+    display: block;
+    margin: auto;
+    margin-bottom: 0.5cm;
+    width: 80%;
+    
+  }
+
+.top-container{
+    display: flex;
+}
+.title{
+    font-style: normal;
+    font-size: x-large;
+    text-align: center;
+    padding: 2%;
+}
+
+table{
+  font-family: Arial, Helvetica, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+table td, table th {
+  border: 1px solid #ddd;
+  padding: 8px;
+}
+
+table th{
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: left;
+    background-color: #ffffff;
+    color: rgb(0, 0, 0);
+}
+
+.title-quote{
+    text-align: center;
+    padding: 2%;
+}
+
+.total-price{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bolder;
+    padding: 1%;
+    font-size: larger;
+
+}
+
+.print-btn{
+    background-color: #555756;
+    border: none;
+    color: white;
+    padding: 1%;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    margin: 0
+}
